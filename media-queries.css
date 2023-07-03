@@ -1,6 +1,41 @@
 /* media queries  */
 
 @media screen and (max-width:991px){
+    
+    .nav-toggle div{
+        width: 39px;
+        height: 17px;
+        margin: 21px;
+        position: relative;
+    }
+    .nav-toggle span{
+        background: #091238 ;
+        width: 100%;
+        height: 3px;
+        
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: transform 0.5s, width 0.5s; 
+    }
+    .nav-toggle .line-1{
+        transform: translate(-50%, -12px) ;
+    }
+    .nav-toggle .line-3{
+        transform: translate(-50%, 10px) ;
+    }
+    .active #line-1{
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    .active #line-3{
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    .active #line-2{
+       width: 0;
+    }
+
     h3{
         font-size: 1.2rem;
         font-family: 'poppins', sans-serif;
@@ -32,13 +67,15 @@
     }
     .nav-bar {
         position: absolute;
-         padding: 0px; 
+        
+         padding-top: 16px;
+         height: 100px; 
     }
     .nav-toggle{
         display: block;
-        margin-right: 25px;
+        margin-right: 0px;
         color: rgb(0, 0, 0);
-        margin-top: 25px;
+        margin-top: 5px;
         cursor: pointer;
     }
     .header-right img{
@@ -56,9 +93,9 @@
     .nav-links{
         position: absolute;
         /* background-color: white; */
-        background: #2F58CD;
+        background: #2e5caf;
         left: -182%;
-        top: 100%;
+        top: 126%;
         width: 133% ;
         padding-block: 37px;
         transition: 0.5s ease-in-out;
@@ -85,6 +122,9 @@
     .cta-section{
         padding-block: 80px ;
     }
+    .examples-section {
+        padding-top: 142px;
+    }
 }
     
 
@@ -100,6 +140,7 @@
     .header-right img {
         width: 100%;
         margin-left: 0px;
+        margin-top: 11px;
     }
     .header-left h1 {
         margin-top: -20px;
@@ -137,7 +178,7 @@
     .header-left{
         max-width: 100vw;
         text-align: center;
-        padding-top: 69px;
+        padding-top: 62px;
     }
     .features-card{
         min-width: 60%;
@@ -205,8 +246,8 @@
         width: 100%;
     }
     .primary-button {
-        width: 58%;
-        padding: 9px 0px;
+        width: 50%;
+        padding: 13px 0px;
         font-weight: 500;
     }
     .examples-area {
