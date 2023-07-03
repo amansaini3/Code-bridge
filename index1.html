@@ -1,78 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="media-queries.css">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code bridge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+    
 </head>
 <body>
+  <nav class="nav-bar">
+    <div class="container main-nav flex">
+        <a href="index.html" class="company-logo" >
+            <img src="assets/codebridgel.png" alt="Company logo" >
+
+        </a>
+        <div class="nav-links" id="nav-links">
+            <ul class="flex">
+                <li><a href="index.html" target="_self" class="hover-link home">Home</a></li>
+                <li><a href="index.html#aboutus" target="_parent" class="hover-link text-white">About us</a></li>
+                <li><a href="index.html#services" class="hover-link text-white">Services</a></li>
+                <li><a href="index1.html" target="_self" class="hover-link text-white">Our Internships</a></li>
+                <li><a href="index.html#contact" class="hover-link text-white">Contact us</a></li>
+                
+            </ul>
+
+        </div>
+        <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+            <!-- <i class="fa-solid fa-bars"></i>   -->
+            <div>
+              <span class="line-1" id="line-1"></span>
+              <span claas="line-2" id="line-2"></span>
+              <span class="line-3" id="line-3"></span>
+          </div>
+        </a>
+    
+    </div>
+</nav>
+
   <section class="examples-section" id="internships">
     <div class="container ">
-        <!-- <div class="examples-header flex ">
-            <h2 class="examples-heading-text">Virtual internships Programes on various fields</h2>
+        <div class="examples-header flex ">
+            <h2 class="examples-heading-text">Virtual internships Programes</h2>
 
-        </div> -->
-        <div class="examples-area flex slider">
+        </div>
+        <div class="examples-area flex">
 
            <div href="#" class="examples-card" >
-            <img src="assets/undraw_static_website_re_x70h.svg" alt="" style="width:95%" class="intern-img">
+            <img src="assets/CSS_Isometric (1).svg" alt="" style="width:95%" class="intern-img">
             <h3 class="card-text"><div> Frontend development</div>
                 <a href="https://forms.gle/rmWwV41DHgd5A72g8" target="_blank" class="primary-button  get-started-btn apply-btn">Apply Now!</a> 
             </h3>
             
            </div> 
            <div href="#" class="examples-card">
-            <img src="assets/undraw_programmer_re_owql.svg" alt="" style="width:95%" class="intern-img">
+            <img src="assets/Coding _Monochromatic.svg" alt="" style="width:95%" class="intern-img">
             <h3 class="card-text"> <div> Full Stack Web-Development</div>
                 <a href="https://forms.gle/rmWwV41DHgd5A72g8" target="_blank" class="primary-button  get-started-btn apply-btn">Apply Now!</a> 
             </h3>
            </div> 
            
            <div href="#" class="examples-card">
-            <img src="assets/undraw_code_typing_re_p8b9.svg" alt="" style="width:95%" class="intern-img">
+            <img src="assets/undraw_mobile_apps_re_3wjf.svg" alt="" style="width:95%" class="intern-img">
             <h3 class="card-text"> <div> App Development</div>
                 <a href="https://forms.gle/rmWwV41DHgd5A72g8" target="_blank" class="primary-button  get-started-btn apply-btn">Apply Now!</a> 
             </h3>
            </div> 
            <div href="#" class="examples-card">
-            <img src="assets/undraw_social_influencer_re_beim.svg" alt="" style="width:95%" class="intern-img">
+            <img src="assets/UI design _Two Color.svg" alt="" style="width:95%" class="intern-img">
             <h3 class="card-text"> <div>Graphic designing</div>
                 <a href="https://forms.gle/rmWwV41DHgd5A72g8" target="_blank" class="primary-button  get-started-btn apply-btn">Apply Now!</a> 
             </h3>
            </div> 
            <div href="#" class="examples-card">
-            <img src="assets/undraw_data_trends_re_2cdy.svg" alt="" style="width:95%" class="intern-img">
+            <img src="assets/Python_Monochromatic.svg" alt="" style="width:95%" class="intern-img">
             <h3 class="card-text">  <div>Data science</div>
                 <a href="https://forms.gle/rmWwV41DHgd5A72g8" target="_blank" class="primary-button  get-started-btn apply-btn">Apply Now!</a> 
             </h3>
            </div> 
            <div href="#" class="examples-card">
-            <img src="assets/undraw_developer_activity_re_39tg.svg" alt="" style="width:95%" class="intern-img"> 
+            <img src="assets/machine-learning.svg" alt="" style="width:95%" class="intern-img"> 
             <h3 class="card-text"><div>Machine Learning</div>
                 <a href="https://forms.gle/rmWwV41DHgd5A72g8" target="_blank" class="primary-button  get-started-btn apply-btn">Apply Now!</a> 
             </h3>
            </div> 
            <div href="#" class="examples-card">
-            <img src="assets/undraw_cloud_sync_re_02p1.svg" alt="" style="width:95%" class="intern-img">
+            <img src="assets/Data storage_Isometric.svg" alt="" style="width:95%" class="intern-img">
             <h3 class="card-text"><div>Cloud Computing</div>
                 <a href="https://forms.gle/rmWwV41DHgd5A72g8" target="_blank" class="primary-button  get-started-btn apply-btn">Apply Now!</a> 
             </h3>
            </div> 
            <div href="#" class="examples-card">
-            <img src="assets/undraw_web_development_0l6v.svg" alt="" style="width:95%" class="intern-img">
+            <img src="assets/Team building _Monochromatic.svg" alt="" style="width:95%" class="intern-img">
             <h3 class="card-text"> <div> Business Analytics</div>
                 <a href="https://forms.gle/rmWwV41DHgd5A72g8" target="_blank" class="primary-button  get-started-btn apply-btn">Apply Now!</a> 
             </h3>
            </div> 
            <div href="#" class="examples-card">
-            <img src="assets/undraw_artificial_intelligence_re_enpp.svg" alt="" style="width:95%" class="intern-img">
+            <img src="assets/Artificial intelligence_Isometric.svg" alt="" style="width:95%" class="intern-img">
             <h3 class="card-text"><div>Artificial intelligence</div>
                 <a href="https://forms.gle/rmWwV41DHgd5A72g8" target="_blank" class="primary-button  get-started-btn apply-btn">Apply Now!</a> 
             </h3>
@@ -84,48 +111,62 @@
     </div>
 </section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!-- cta section  -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<section class="cta-section">
+    <div class="container flex cta-section-container">
+        <h2 class="cta-h2">Start your Internship with Code bridge.</h2>
+        <p> Make your internship count with our guidance and resources.</p>
+        <a href="https://forms.gle/rmWwV41DHgd5A72g8"  target="_blank" class="primary-button">Apply now</a>
 
-<script>
-  $('.slider').slick({
-  dots: true,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-</script>
+
+    </div>
+</section>
+
+<!-- footer  -->
+
+<footer>
+    <div class="container flex footer-container" id="contact" >
+        <a href="#" class="company-logo">
+            <img src="./assets/codebridge.png" alt="company logo">
+        </a>
+        <div class="link-column flex">
+            <!-- <h3>Code bridge</h3> -->
+            <h3>Unlock your potential with the right internship.</h3>
+         
+
+        </div>
+        <div class="link-column flex" >
+            <h4>Contact Us</h4>
+            <a href="#" class="hover-link footer-link">Addres</a>
+            <a href="#" class="hover-link footer-link">Email</a>
+            <a href="#" class="hover-link footer-link">Phone number</a>
+           
+
+        </div>
+        <div class="link-column flex">
+            <h4>Follow us on</h4>
+            <a href="#" class="hover-link footer-link">Linkdin <span><i class="fa-brands fa-linkedin"></i></span></a>
+            <a href="#" class="hover-link footer-link">Facebook <span><i class="fa-brands fa-facebook"></i></span></a>
+            <a href="#" class="hover-link footer-link">Instagram <span><i class="fa-brands fa-instagram"></i></span></a>
+            <a href="#" class="hover-link footer-link">Twitter <span><i class="fa-brands fa-twitter"></i></span></a>
+           
+
+        </div>
+
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/5b16ec1da7.js" crossorigin="anonymous"></script>
+
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+        
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+         
+        })
+    </script>
 
   
 </body>
-</html>
