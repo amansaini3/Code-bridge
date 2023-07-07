@@ -233,10 +233,10 @@
   
     p {
         font-size: 1rem;
-        margin-top: 20px;
+        margin-top: 15px;
     }
     .features-card{
-        min-width: 99%;
+        min-width: 100%;
         height: 466px;
         padding: 28px 20px;
         margin-bottom: 23px;
