@@ -3,9 +3,9 @@
 @media screen and (max-width:991px){
     
     .nav-toggle div{
-        width: 39px;
-        height: 17px;
-        margin: 21px;
+        width: 34px;
+        height: 14px;
+        margin: 19px;
         position: relative;
     }
     .nav-toggle span{
@@ -27,10 +27,10 @@
         transform: translate(-50%, 10px) ;
     }
     .active #line-1{
-        transform: translate(-50%, -50%) rotate(-45deg);
+        transform: translate(-50%, -50%) rotateZ(-45deg);
     }
     .active #line-3{
-        transform: translate(-50%, -50%) rotate(45deg);
+        transform: translate(-50%, -50%) rotateZ(45deg);
     }
     .active #line-2{
        width: 0;
@@ -67,9 +67,8 @@
     }
     .nav-bar {
         position: absolute;
-        
-         padding-top: 16px;
-         height: 100px; 
+        padding-top: 11px;
+        height: 90px; 
     }
     .nav-toggle{
         display: block;
@@ -237,10 +236,10 @@
         margin-top: 20px;
     }
     .features-card{
-        min-width: 100%;
-        height: 505px;
+        min-width: 99%;
+        height: 466px;
         padding: 28px 20px;
-        margin-bottom: 25px;
+        margin-bottom: 23px;
     }
     .examples-card{
         width: 100%;
